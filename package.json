@@ -1,0 +1,21 @@
+{
+  "name": "word-suggestion-lib",
+  "version": "1.0.0",
+  "description": "Advanced word suggestion library with multiple engines",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "word2vec": "^1.1.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "@babel/preset-env": "^7.23.9"
+  },
+  "jest": {
+    "moduleDirectories": ["node_modules", "src"]
+  }
+}
